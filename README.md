@@ -4,3 +4,5 @@
 </div>
 
 🔬 列举一些关于AgenticRAG的系列文章，以2025年开始，包括Search-O1，Search-R1
+
+- [2025.01] [[Search-o1]](https://arxiv.org/abs/2501.05366) Search-o1: Agentic Search-Enhanced Large Reasoning Models
