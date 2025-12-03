@@ -1,4 +1,4 @@
-<img width="210" height="59" alt="image" src="https://github.com/user-attachments/assets/4b41d698-e082-45f1-aa48-aea876e19da4" /><div align="center">
+<div align="center">
   <!-- <p align="center"> -->
   <h1 align="center"><strong>Awesome-AgenticRAG</strong></h1>
 </div>
