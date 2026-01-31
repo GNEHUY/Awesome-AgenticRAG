@@ -62,3 +62,13 @@
 - [2026.01] [[PaperSearchQA]](https://arxiv.org/abs/2601.18207v1) PaperSearchQA: Learning to Search and Reason over Scientific Papers with RLVR 现有 RLVR 搜索智能体只在通用 QA 上验证“最终答案对不对”，缺乏面向科学文献的深层技术问答，难以满足科研工作者与未来“AI 科学家”的真实需求。如何构建大规模、可验证reward 的科学文献搜索环境，让智能体学会在 1600 万篇生物医学摘要里做复杂检索与推理，并系统评估其规划、自检等能力。发布 PaperSearchQA——含 1600 万摘要的搜索语料 + 6 万可验证事实问答对 + 评测基准；基于 Search-R1 框架训练智能体，以“最终答案 EM”为可验证奖励，显著优于非 RL 检索基线，并展现出规划、推理、自验证等可解释行为；数据与代码全部开源，且创建流程可低成本扩展到其他科学领域 [![[code]](https://img.shields.io/github/stars/jmhb0/PaperSearchQA)](https://github.com/jmhb0/PaperSearchQA) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/jmhb/PaperSearchQA)
 - [2026.01] [[Dep-Search]](https://arxiv.org/abs/2601.18771v1) Dep-Search: Learning Dependency-Aware Reasoning Traces with Persistent Memory 现有“搜索+推理”框架全靠隐式自然语言串来决策搜什么、怎么用，导致子问题依赖关系混乱、旧知识无法重用、RL 信号稀疏，难以学会最优搜索策略。提出 Dep-Search，用依赖感知的结构化分解将主问题拆成带先后依赖的子图，引入持久记忆库保存已获事实；通过 GRPO 联合优化“何时检索/复用记忆/更新记忆”的显式动作，实现依赖-检索-记忆一体化控制，在 7 个 QA 数据集上显著超越强基线。
 - [2026.01] [[ProRAG]](https://arxiv.org/abs/2601.21912v1) ProRAG: Process-Supervised Reinforcement Learning for Retrieval-Augmented Generation 通过MCTS构建过程奖励模型并引入双粒度优势机制，解决了长程多跳RAG任务中基于结果的RL奖励稀疏和信用分配困境，在5个多跳推理基准上显著超越强基线，特别在处理复杂长程任务时表现出优秀的鲁棒性和泛化能力。 [![[code]](https://img.shields.io/github/stars/lilinwz/ProRAG)](https://github.com/lilinwz/ProRAG)
+- [2026.01] [[JADE]](https://arxiv.org/abs/2601.21916v1) JADE: Bridging the Strategic-Operational Gap in Dynamic Agentic RAG
+  * 动机：现有 Agentic RAG 范式面临关键二分困境：要么在刚性固定图架构内联合优化模块（静态联合优化），丧失动态适应能力；要么赋予动态规划能力却将执行器视为冻结黑盒（动态解耦优化），导致"战略-运营不匹配"——规划器设计的精妙策略因执行器未协同训练而无法实现，反而造成负面性能收益且增加系统复杂度。
+    1. 静态方法（如 MMOA-RAG）受限于固定工作流程，无法处理需要多变推理路径的复杂多跳查询；
+    2. 解耦方法（如 MAO-ARAG）仅优化规划器而冻结执行器，导致规划与实际执行能力脱节；
+    3. 单体方法（如 Search-R1）虽提供端到端灵活性，但缺乏结构先验导致训练不稳定，在巨大上下文窗口中同时学习推理、查询和过滤会陷入优化困境。
+  * 提出的方法： JADE（Joint Agentic Dynamic Execution），核心包括：
+    1. 参数共享的 MSMDP 建模：将动态 RAG 建模为多智能体半马尔可夫决策过程，规划器和执行器（查询重写、文档选择、答案生成等）共享同一个 LLM 主干，通过角色特定提示区分功能；
+    2. 统一经验回放缓冲：将异构的规划和执行转移数据聚合到共享缓冲区，使用 PPO 进行端到端联合优化；
+    3. 双层奖励机制：全局共享奖励（最终答案质量减去计算成本）促进团队协作解决信用分配问题，局部格式惩罚确保各角色输出结构合规；
+    4. 动态工作流编排：规划器根据查询复杂度自适应选择"串行分解"、"并行分解"或"直接求解"等工作流拓扑。
