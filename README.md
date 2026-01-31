@@ -72,3 +72,4 @@
     2. 统一经验回放缓冲：将异构的规划和执行转移数据聚合到共享缓冲区，使用 PPO 进行端到端联合优化；
     3. 双层奖励机制：全局共享奖励（最终答案质量减去计算成本）促进团队协作解决信用分配问题，局部格式惩罚确保各角色输出结构合规；
     4. 动态工作流编排：规划器根据查询复杂度自适应选择"串行分解"、"并行分解"或"直接求解"等工作流拓扑。
+- [2026.01] [[DeepSearchQA]](https://arxiv.org/abs/2601.20975) DeepSearchQA: Bridging the Comprehensiveness Gap for Deep Research Agents 通过引入 900 个要求生成完整答案集的多步骤检索任务，解决了现有单答案基准无法评估的"全面性缺口"问题（包括系统整理、实体去重和停止准则推理），采用 F1 分数等严格指标对深度研究智能体进行基于结果的评估，揭示了即使最先进的 Gemini Deep Research Agent 和 GPT-5 Pro 在平衡召回率与精确率（F1 约 81-82%）及完全正确率（约 66%）方面仍存在显著局限性。 [![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/benchmarks/google/dsqa/leaderboard)
