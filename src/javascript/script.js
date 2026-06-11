@@ -76,8 +76,8 @@ function renderHeroPanel() {
 
     heroPanel.innerHTML = `
         <div class="hero-panel-label">Latest paper</div>
-        <a class="hero-latest-title" href="${latest.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(latest.name)}</a>
-        <p>${escapeHtml(trimText(latest.description, 128))}</p>
+        <a class="hero-latest-title" href="${latest.url}" target="_blank" rel="noopener noreferrer">${escapeHtmlWithSup(latest.name)}</a>
+        <p>${escapeHtmlWithSup(trimText(latest.description, 128))}</p>
         <div class="hero-meta">
             <span>${latest.date}</span>
             <span>${papers.length} papers</span>
@@ -153,8 +153,8 @@ function renderLatestPapers() {
         return `
             <article class="latest-card">
                 <div class="latest-date">${paper.date}</div>
-                <h3><a href="${paper.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(paper.name)}</a></h3>
-                <p>${escapeHtml(trimText(paper.description, 116))}</p>
+                <h3><a href="${paper.url}" target="_blank" rel="noopener noreferrer">${escapeHtmlWithSup(paper.name)}</a></h3>
+                <p>${escapeHtmlWithSup(trimText(paper.description, 116))}</p>
                 <div class="latest-tags">${tags}</div>
             </article>
         `;
@@ -329,12 +329,12 @@ function createPaperCard(paper) {
                 <span class="paper-date">${paper.date}</span>
                 <div class="paper-heading-main">
                     <h2 class="paper-title">
-                        <a href="${paper.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(paper.name)}</a>
+                        <a href="${paper.url}" target="_blank" rel="noopener noreferrer">${escapeHtmlWithSup(paper.name)}</a>
                     </h2>
                     <div class="paper-badges">${badges.join('')}</div>
                 </div>
             </div>
-            <p class="paper-abstract" data-expandable="${canExpand}">${escapeHtml(paper.description)}</p>
+            <p class="paper-abstract" data-expandable="${canExpand}">${escapeHtmlWithSup(paper.description)}</p>
             ${expandButtonHtml}
             <div class="paper-tags">${tagsHtml}</div>
             <div class="paper-links">${linksHtml}</div>
@@ -558,6 +558,10 @@ function escapeHtml(value) {
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#039;');
+}
+
+function escapeHtmlWithSup(value) {
+    return escapeHtml(value).replace(/&lt;sup&gt;([\s\S]*?)&lt;\/sup&gt;/gi, '<sup>$1</sup>');
 }
 
 function escapeAttribute(value) {
