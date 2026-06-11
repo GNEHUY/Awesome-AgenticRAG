@@ -249,6 +249,24 @@ const papers = [
   },
   {
     "date": "2025.05",
+    "name": "SimpleDeepSearcher",
+    "url": "https://arxiv.org/abs/2505.16834",
+    "title": "SimpleDeepSearcher",
+    "description": "SimpleDeepSearcher: Deep Information Seeking via Web-Powered Reasoning Trajectory Synthesis 动机在于解决现有深度搜索系统面临的核心瓶颈：高质量训练轨迹稀缺、模拟环境与真实部署之间存在分布偏移、以及真实世界部署的计算成本过高。为此，该研究提出了一个轻量且有效的框架，通过在真实网络搜索环境中模拟用户交互来合成高质量训练数据，并辅以多标准筛选策略优化输入输出端的多样性与质量，最终仅用 871 条精选样本进行监督微调，便在五个跨领域基准上取得了优于强化学习基线的显著提升，系统性地突破了数据稀缺困境，为高效深度搜索系统的构建提供了实用路径。",
+    "codeLinks": [
+      "https://github.com/RUCAIBox/SimpleDeepSearcher"
+    ],
+    "datasetLinks": [],
+    "year": 2025,
+    "tags": [
+      "RL-based",
+      "SFT",
+      "Benchmark"
+    ],
+    "id": 15
+  },
+  {
+    "date": "2025.05",
     "name": "R1-Searcher++",
     "url": "https://arxiv.org/abs/2505.17005",
     "title": "R1-Searcher++",
@@ -261,7 +279,7 @@ const papers = [
     "tags": [
       "RL-based"
     ],
-    "id": 15
+    "id": 16
   },
   {
     "date": "2025.05",
@@ -278,7 +296,7 @@ const papers = [
       "Agent",
       "Token-Efficient"
     ],
-    "id": 16
+    "id": 17
   },
   {
     "date": "2025.05",
@@ -295,7 +313,7 @@ const papers = [
       "RL-based",
       "Process Reward"
     ],
-    "id": 17
+    "id": 18
   },
   {
     "date": "2025.05",
@@ -312,7 +330,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 18
+    "id": 19
   },
   {
     "date": "2025.06",
@@ -328,7 +346,7 @@ const papers = [
     "tags": [
       "RL-based"
     ],
-    "id": 19
+    "id": 20
   },
   {
     "date": "2025.07",
@@ -346,7 +364,7 @@ const papers = [
       "RAG",
       "Multi-hop QA"
     ],
-    "id": 20
+    "id": 21
   },
   {
     "date": "2025.08",
@@ -362,7 +380,7 @@ const papers = [
     "tags": [
       "RL-based"
     ],
-    "id": 21
+    "id": 22
   },
   {
     "date": "2025.08",
@@ -380,7 +398,7 @@ const papers = [
       "Agent",
       "Deep Research"
     ],
-    "id": 22
+    "id": 23
   },
   {
     "date": "2025.08",
@@ -400,7 +418,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 23
+    "id": 24
   },
   {
     "date": "2025.09",
@@ -421,7 +439,7 @@ const papers = [
       "Benchmark",
       "Dataset"
     ],
-    "id": 24
+    "id": 25
   },
   {
     "date": "2025.09",
@@ -439,7 +457,7 @@ const papers = [
       "RAG",
       "Multi-hop QA"
     ],
-    "id": 25
+    "id": 26
   },
   {
     "date": "2025.09",
@@ -460,7 +478,7 @@ const papers = [
       "Multi-hop QA",
       "Dataset"
     ],
-    "id": 26
+    "id": 27
   },
   {
     "date": "2025.10",
@@ -477,7 +495,7 @@ const papers = [
       "RL-based",
       "Agent"
     ],
-    "id": 27
+    "id": 28
   },
   {
     "date": "2025.10",
@@ -498,7 +516,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 28
+    "id": 29
   },
   {
     "date": "2025.10",
@@ -518,7 +536,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 29
+    "id": 30
   },
   {
     "date": "2025.10",
@@ -536,7 +554,7 @@ const papers = [
       "RAG",
       "Search Agent"
     ],
-    "id": 30
+    "id": 31
   },
   {
     "date": "2025.10",
@@ -553,7 +571,7 @@ const papers = [
       "Search Agent",
       "Token-Efficient"
     ],
-    "id": 31
+    "id": 32
   },
   {
     "date": "2025.10",
@@ -571,7 +589,7 @@ const papers = [
       "Self-Play",
       "Agent"
     ],
-    "id": 32
+    "id": 33
   },
   {
     "date": "2025.10",
@@ -588,7 +606,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 33
+    "id": 34
   },
   {
     "date": "2025.10",
@@ -606,7 +624,7 @@ const papers = [
       "RAG",
       "Multi-hop QA"
     ],
-    "id": 34
+    "id": 35
   },
   {
     "date": "2025.10",
@@ -624,7 +642,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 35
+    "id": 36
   },
   {
     "date": "2025.10",
@@ -643,7 +661,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 36
+    "id": 37
   },
   {
     "date": "2025.11",
@@ -665,7 +683,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 37
+    "id": 38
   },
   {
     "date": "2025.11",
@@ -683,7 +701,7 @@ const papers = [
       "Deep Research",
       "Token-Efficient"
     ],
-    "id": 38
+    "id": 39
   },
   {
     "date": "2025.11",
@@ -700,7 +718,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 39
+    "id": 40
   },
   {
     "date": "2025.12",
@@ -716,7 +734,7 @@ const papers = [
     "tags": [
       "RL-based"
     ],
-    "id": 40
+    "id": 41
   },
   {
     "date": "2025.12",
@@ -736,7 +754,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 41
+    "id": 42
   },
   {
     "date": "2025.12",
@@ -754,7 +772,7 @@ const papers = [
       "RAG",
       "Multi-hop QA"
     ],
-    "id": 42
+    "id": 43
   },
   {
     "date": "2025.12",
@@ -774,7 +792,7 @@ const papers = [
       "Token-Efficient",
       "Training-free"
     ],
-    "id": 43
+    "id": 44
   },
   {
     "date": "2025.12",
@@ -791,7 +809,7 @@ const papers = [
       "Memory",
       "RAG"
     ],
-    "id": 44
+    "id": 45
   },
   {
     "date": "2026.01",
@@ -807,7 +825,7 @@ const papers = [
       "Process Reward",
       "RAG"
     ],
-    "id": 45
+    "id": 46
   },
   {
     "date": "2026.01",
@@ -826,7 +844,7 @@ const papers = [
       "Agent",
       "Multi-hop QA"
     ],
-    "id": 46
+    "id": 47
   },
   {
     "date": "2026.01",
@@ -843,7 +861,7 @@ const papers = [
       "RL-based",
       "RAG"
     ],
-    "id": 47
+    "id": 48
   },
   {
     "date": "2026.01",
@@ -863,7 +881,7 @@ const papers = [
       "Search Agent",
       "Token-Efficient"
     ],
-    "id": 48
+    "id": 49
   },
   {
     "date": "2026.01",
@@ -883,7 +901,7 @@ const papers = [
       "RAG",
       "Multi-hop QA"
     ],
-    "id": 49
+    "id": 50
   },
   {
     "date": "2026.01",
@@ -901,7 +919,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 50
+    "id": 51
   },
   {
     "date": "2026.01",
@@ -918,7 +936,7 @@ const papers = [
       "Agent",
       "RAG"
     ],
-    "id": 51
+    "id": 52
   },
   {
     "date": "2026.01",
@@ -936,7 +954,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 52
+    "id": 53
   },
   {
     "date": "2026.01",
@@ -952,7 +970,7 @@ const papers = [
       "RAG",
       "Multi-hop QA"
     ],
-    "id": 53
+    "id": 54
   },
   {
     "date": "2026.01",
@@ -968,7 +986,7 @@ const papers = [
     "tags": [
       "Deep Research"
     ],
-    "id": 54
+    "id": 55
   },
   {
     "date": "2026.01",
@@ -987,7 +1005,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 55
+    "id": 56
   },
   {
     "date": "2026.01",
@@ -1005,7 +1023,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 56
+    "id": 57
   },
   {
     "date": "2026.01",
@@ -1024,7 +1042,7 @@ const papers = [
       "RAG",
       "Search Agent"
     ],
-    "id": 57
+    "id": 58
   },
   {
     "date": "2026.01",
@@ -1041,7 +1059,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 58
+    "id": 59
   },
   {
     "date": "2026.01",
@@ -1060,7 +1078,7 @@ const papers = [
       "Multi-hop QA",
       "Benchmark"
     ],
-    "id": 59
+    "id": 60
   },
   {
     "date": "2026.01",
@@ -1082,7 +1100,7 @@ const papers = [
       "Benchmark",
       "Open-Source"
     ],
-    "id": 60
+    "id": 61
   },
   {
     "date": "2026.01",
@@ -1098,7 +1116,7 @@ const papers = [
       "Memory",
       "Dataset"
     ],
-    "id": 61
+    "id": 62
   },
   {
     "date": "2026.01",
@@ -1116,7 +1134,7 @@ const papers = [
       "Agent",
       "Deep Research"
     ],
-    "id": 62
+    "id": 63
   },
   {
     "date": "2026.01",
@@ -1137,7 +1155,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 63
+    "id": 64
   },
   {
     "date": "2026.01",
@@ -1155,7 +1173,7 @@ const papers = [
       "RAG",
       "Multi-hop QA"
     ],
-    "id": 64
+    "id": 65
   },
   {
     "date": "2026.01",
@@ -1174,7 +1192,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 65
+    "id": 66
   },
   {
     "date": "2026.02",
@@ -1192,7 +1210,7 @@ const papers = [
       "Agent",
       "Benchmark"
     ],
-    "id": 66
+    "id": 67
   },
   {
     "date": "2026.02",
@@ -1211,7 +1229,7 @@ const papers = [
       "Deep Research",
       "Token-Efficient"
     ],
-    "id": 67
+    "id": 68
   },
   {
     "date": "2026.02",
@@ -1229,7 +1247,7 @@ const papers = [
       "Search Agent",
       "Dataset"
     ],
-    "id": 68
+    "id": 69
   },
   {
     "date": "2026.02",
@@ -1247,7 +1265,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 69
+    "id": 70
   },
   {
     "date": "2026.02",
@@ -1263,7 +1281,7 @@ const papers = [
       "Multi-Agent",
       "Agent"
     ],
-    "id": 70
+    "id": 71
   },
   {
     "date": "2026.02",
@@ -1280,7 +1298,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 71
+    "id": 72
   },
   {
     "date": "2026.02",
@@ -1299,7 +1317,7 @@ const papers = [
       "Search Agent",
       "Token-Efficient"
     ],
-    "id": 72
+    "id": 73
   },
   {
     "date": "2026.02",
@@ -1314,7 +1332,7 @@ const papers = [
       "Agent",
       "Token-Efficient"
     ],
-    "id": 73
+    "id": 74
   },
   {
     "date": "2026.02",
@@ -1333,7 +1351,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 74
+    "id": 75
   },
   {
     "date": "2026.02",
@@ -1351,7 +1369,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 75
+    "id": 76
   },
   {
     "date": "2026.02",
@@ -1367,7 +1385,7 @@ const papers = [
       "Agent",
       "RAG"
     ],
-    "id": 76
+    "id": 77
   },
   {
     "date": "2026.02",
@@ -1385,7 +1403,7 @@ const papers = [
       "Benchmark",
       "Dataset"
     ],
-    "id": 77
+    "id": 78
   },
   {
     "date": "2026.02",
@@ -1401,7 +1419,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 78
+    "id": 79
   },
   {
     "date": "2026.02",
@@ -1415,7 +1433,7 @@ const papers = [
     "tags": [
       "Deep Research"
     ],
-    "id": 79
+    "id": 80
   },
   {
     "date": "2026.02",
@@ -1436,7 +1454,7 @@ const papers = [
       "Benchmark",
       "Open-Source"
     ],
-    "id": 80
+    "id": 81
   },
   {
     "date": "2026.02",
@@ -1455,7 +1473,7 @@ const papers = [
       "Agent",
       "Dataset"
     ],
-    "id": 81
+    "id": 82
   },
   {
     "date": "2026.02",
@@ -1469,7 +1487,7 @@ const papers = [
     "tags": [
       "Multi-hop QA"
     ],
-    "id": 82
+    "id": 83
   },
   {
     "date": "2026.02",
@@ -1486,7 +1504,7 @@ const papers = [
       "Search Agent",
       "Deep Research"
     ],
-    "id": 83
+    "id": 84
   },
   {
     "date": "2026.02",
@@ -1504,7 +1522,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 84
+    "id": 85
   },
   {
     "date": "2026.03",
@@ -1529,7 +1547,7 @@ const papers = [
       "Dataset",
       "Open-Source"
     ],
-    "id": 85
+    "id": 86
   },
   {
     "date": "2026.03",
@@ -1545,7 +1563,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 86
+    "id": 87
   },
   {
     "date": "2026.03",
@@ -1565,7 +1583,7 @@ const papers = [
       "Benchmark",
       "Dataset"
     ],
-    "id": 87
+    "id": 88
   },
   {
     "date": "2026.03",
@@ -1581,7 +1599,7 @@ const papers = [
       "Search Agent",
       "Benchmark"
     ],
-    "id": 88
+    "id": 89
   },
   {
     "date": "2026.03",
@@ -1598,7 +1616,7 @@ const papers = [
       "Deep Research",
       "Token-Efficient"
     ],
-    "id": 89
+    "id": 90
   },
   {
     "date": "2026.03",
@@ -1615,7 +1633,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 90
+    "id": 91
   },
   {
     "date": "2026.03",
@@ -1632,7 +1650,7 @@ const papers = [
       "Deep Research",
       "Token-Efficient"
     ],
-    "id": 91
+    "id": 92
   },
   {
     "date": "2026.03",
@@ -1648,7 +1666,7 @@ const papers = [
       "Search Agent",
       "Deep Research"
     ],
-    "id": 92
+    "id": 93
   },
   {
     "date": "2026.03",
@@ -1668,7 +1686,7 @@ const papers = [
       "Agent",
       "Deep Research"
     ],
-    "id": 93
+    "id": 94
   },
   {
     "date": "2026.03",
@@ -1689,7 +1707,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 94
+    "id": 95
   },
   {
     "date": "2026.03",
@@ -1708,7 +1726,7 @@ const papers = [
       "Agent",
       "Token-Efficient"
     ],
-    "id": 95
+    "id": 96
   },
   {
     "date": "2026.03",
@@ -1726,7 +1744,7 @@ const papers = [
       "Multi-hop QA",
       "Benchmark"
     ],
-    "id": 96
+    "id": 97
   },
   {
     "date": "2026.03",
@@ -1740,7 +1758,7 @@ const papers = [
     "tags": [
       "RL-based"
     ],
-    "id": 97
+    "id": 98
   },
   {
     "date": "2026.03",
@@ -1759,7 +1777,7 @@ const papers = [
       "Multi-hop QA",
       "Benchmark"
     ],
-    "id": 98
+    "id": 99
   },
   {
     "date": "2026.03",
@@ -1777,7 +1795,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 99
+    "id": 100
   },
   {
     "date": "2026.03",
@@ -1794,7 +1812,7 @@ const papers = [
       "Agent",
       "Multi-hop QA"
     ],
-    "id": 100
+    "id": 101
   },
   {
     "date": "2026.03",
@@ -1817,7 +1835,7 @@ const papers = [
       "Benchmark",
       "Open-Source"
     ],
-    "id": 101
+    "id": 102
   },
   {
     "date": "2026.03",
@@ -1839,7 +1857,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 102
+    "id": 103
   },
   {
     "date": "2026.03",
@@ -1858,7 +1876,7 @@ const papers = [
       "Dataset",
       "Open-Source"
     ],
-    "id": 103
+    "id": 104
   },
   {
     "date": "2026.03",
@@ -1875,7 +1893,7 @@ const papers = [
       "RL-based",
       "Benchmark"
     ],
-    "id": 104
+    "id": 105
   },
   {
     "date": "2026.03",
@@ -1895,7 +1913,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 105
+    "id": 106
   },
   {
     "date": "2026.03",
@@ -1914,7 +1932,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 106
+    "id": 107
   },
   {
     "date": "2026.03",
@@ -1933,7 +1951,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 107
+    "id": 108
   },
   {
     "date": "2026.03",
@@ -1949,7 +1967,7 @@ const papers = [
       "Multi-hop QA",
       "Benchmark"
     ],
-    "id": 108
+    "id": 109
   },
   {
     "date": "2026.04",
@@ -1967,7 +1985,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 109
+    "id": 110
   },
   {
     "date": "2026.04",
@@ -1986,7 +2004,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 110
+    "id": 111
   },
   {
     "date": "2026.04",
@@ -2008,7 +2026,7 @@ const papers = [
       "Deep Research",
       "Dataset"
     ],
-    "id": 111
+    "id": 112
   },
   {
     "date": "2026.04",
@@ -2024,7 +2042,7 @@ const papers = [
     "tags": [
       "Memory"
     ],
-    "id": 112
+    "id": 113
   },
   {
     "date": "2026.04",
@@ -2042,7 +2060,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 113
+    "id": 114
   },
   {
     "date": "2026.04",
@@ -2059,7 +2077,7 @@ const papers = [
       "Agent",
       "Benchmark"
     ],
-    "id": 114
+    "id": 115
   },
   {
     "date": "2026.04",
@@ -2078,7 +2096,7 @@ const papers = [
       "Deep Research",
       "Open-Source"
     ],
-    "id": 115
+    "id": 116
   },
   {
     "date": "2026.04",
@@ -2098,7 +2116,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 116
+    "id": 117
   },
   {
     "date": "2026.04",
@@ -2120,7 +2138,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 117
+    "id": 118
   },
   {
     "date": "2026.04",
@@ -2136,7 +2154,7 @@ const papers = [
       "Search Agent",
       "Multi-hop QA"
     ],
-    "id": 118
+    "id": 119
   },
   {
     "date": "2026.04",
@@ -2152,7 +2170,7 @@ const papers = [
       "Process Reward",
       "RAG"
     ],
-    "id": 119
+    "id": 120
   },
   {
     "date": "2026.04",
@@ -2167,7 +2185,7 @@ const papers = [
       "Agent",
       "Deep Research"
     ],
-    "id": 120
+    "id": 121
   },
   {
     "date": "2026.04",
@@ -2184,7 +2202,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 121
+    "id": 122
   },
   {
     "date": "2026.04",
@@ -2203,7 +2221,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 122
+    "id": 123
   },
   {
     "date": "2026.04",
@@ -2219,7 +2237,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 123
+    "id": 124
   },
   {
     "date": "2026.04",
@@ -2236,7 +2254,7 @@ const papers = [
       "Search Agent",
       "Benchmark"
     ],
-    "id": 124
+    "id": 125
   },
   {
     "date": "2026.04",
@@ -2254,7 +2272,7 @@ const papers = [
       "Multi-hop QA",
       "Dataset"
     ],
-    "id": 125
+    "id": 126
   },
   {
     "date": "2026.04",
@@ -2272,7 +2290,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 126
+    "id": 127
   },
   {
     "date": "2026.04",
@@ -2290,7 +2308,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 127
+    "id": 128
   },
   {
     "date": "2026.04",
@@ -2307,7 +2325,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 128
+    "id": 129
   },
   {
     "date": "2026.04",
@@ -2326,7 +2344,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 129
+    "id": 130
   },
   {
     "date": "2026.04",
@@ -2341,7 +2359,7 @@ const papers = [
       "Memory",
       "RAG"
     ],
-    "id": 130
+    "id": 131
   },
   {
     "date": "2026.04",
@@ -2359,7 +2377,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 131
+    "id": 132
   },
   {
     "date": "2026.04",
@@ -2379,7 +2397,7 @@ const papers = [
       "Benchmark",
       "Open-Source"
     ],
-    "id": 132
+    "id": 133
   },
   {
     "date": "2026.04",
@@ -2400,7 +2418,7 @@ const papers = [
       "Benchmark",
       "Open-Source"
     ],
-    "id": 133
+    "id": 134
   },
   {
     "date": "2026.04",
@@ -2417,7 +2435,7 @@ const papers = [
       "Search Agent",
       "Benchmark"
     ],
-    "id": 134
+    "id": 135
   },
   {
     "date": "2026.04",
@@ -2435,7 +2453,7 @@ const papers = [
       "Multi-hop QA",
       "Benchmark"
     ],
-    "id": 135
+    "id": 136
   },
   {
     "date": "2026.04",
@@ -2454,7 +2472,7 @@ const papers = [
       "Search Agent",
       "Token-Efficient"
     ],
-    "id": 136
+    "id": 137
   },
   {
     "date": "2026.04",
@@ -2474,7 +2492,7 @@ const papers = [
       "Search Agent",
       "Multi-hop QA"
     ],
-    "id": 137
+    "id": 138
   },
   {
     "date": "2026.04",
@@ -2494,7 +2512,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 138
+    "id": 139
   },
   {
     "date": "2026.04",
@@ -2510,7 +2528,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 139
+    "id": 140
   },
   {
     "date": "2026.04",
@@ -2529,7 +2547,7 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 140
+    "id": 141
   },
   {
     "date": "2026.04",
@@ -2547,7 +2565,7 @@ const papers = [
       "Agent",
       "RAG"
     ],
-    "id": 141
+    "id": 142
   },
   {
     "date": "2026.04",
@@ -2563,7 +2581,7 @@ const papers = [
       "Process Reward",
       "Multi-hop QA"
     ],
-    "id": 142
+    "id": 143
   },
   {
     "date": "2026.04",
@@ -2578,7 +2596,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 143
+    "id": 144
   },
   {
     "date": "2026.04",
@@ -2597,7 +2615,7 @@ const papers = [
       "Benchmark",
       "Dataset"
     ],
-    "id": 144
+    "id": 145
   },
   {
     "date": "2026.04",
@@ -2617,7 +2635,7 @@ const papers = [
       "Benchmark",
       "Token-Efficient"
     ],
-    "id": 145
+    "id": 146
   },
   {
     "date": "2026.04",
@@ -2635,7 +2653,7 @@ const papers = [
       "Multi-hop QA",
       "Benchmark"
     ],
-    "id": 146
+    "id": 147
   },
   {
     "date": "2026.04",
@@ -2654,7 +2672,7 @@ const papers = [
       "Benchmark",
       "Dataset"
     ],
-    "id": 147
+    "id": 148
   },
   {
     "date": "2026.04",
@@ -2672,7 +2690,7 @@ const papers = [
       "Agent",
       "Benchmark"
     ],
-    "id": 148
+    "id": 149
   },
   {
     "date": "2026.04",
@@ -2692,7 +2710,7 @@ const papers = [
       "Benchmark",
       "Open-Source"
     ],
-    "id": 149
+    "id": 150
   },
   {
     "date": "2026.04",
@@ -2711,7 +2729,7 @@ const papers = [
       "Agent",
       "Search Agent"
     ],
-    "id": 150
+    "id": 151
   },
   {
     "date": "2026.04",
@@ -2728,7 +2746,7 @@ const papers = [
       "RAG",
       "Benchmark"
     ],
-    "id": 151
+    "id": 152
   },
   {
     "date": "2026.04",
@@ -2749,6 +2767,868 @@ const papers = [
       "Deep Research",
       "Benchmark"
     ],
-    "id": 152
+    "id": 153
+  },
+  {
+    "date": "2026.04",
+    "name": "S2G-RAG",
+    "url": "https://arxiv.org/abs/2604.23783v1",
+    "title": "S2G-RAG",
+    "description": "S2G-RAG: Structured Sufficiency and Gap Judging for Iterative Retrieval-Augmented QA 该论文提出S2G-RAG框架，旨在解决迭代式RAG在多跳问答中的检索控制瓶颈：现有系统难以判断当前证据是否充分、无法明确下一跳缺失信息，且多轮检索易积累噪声干扰后续推理。为此，作者设计了轻量级控制器S2G-Judge，每轮显式输出\"证据充分性\"二元判断和结构化的信息缺口（gap items），将缺失信息映射为下一轮查询目标，并通过句子级证据提取器维持紧凑上下文；该控制器通过从多轮执行轨迹中蒸馏过程监督信号进行训练，在TriviaQA、HotpotQA和2WikiMultiHopQA上显著提升了多跳问答性能与鲁棒性。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Process Reward",
+      "RAG",
+      "Multi-hop QA",
+      "Benchmark"
+    ],
+    "id": 154
+  },
+  {
+    "date": "2026.04",
+    "name": "DRACULA",
+    "url": "https://arxiv.org/abs/2604.23815v1",
+    "title": "DRACULA",
+    "description": "DRACULA: Hunting for the Actions Users Want Deep Research Agents to Execute 现有深度研究（DR）智能体的评估仅针对最终报告打分，导致无法研究哪些中间动作能真正提升报告质量，为此研究者构建了首个包含用户对中间动作反馈的 DRACULA 数据集（8,103 条动作偏好与 5,230 条执行判断），并通过模拟实验发现 LLM 利用用户完整选择历史最能预测其偏好动作，且用户未明确的目标会导致同一查询下选择差异，进而提出基于用户历史交互动态生成新动作的在线干预策略，揭示了\"决定执行哪些动作\"是比\"如何执行\"更关键的挑战。",
+    "codeLinks": [
+      "https://github.com/allenai/dracula"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Dataset"
+    ],
+    "id": 155
+  },
+  {
+    "date": "2026.04",
+    "name": "SEARCH-R",
+    "url": "https://arxiv.org/abs/2604.24515v1",
+    "title": "SEARCH-R",
+    "description": "SEARCH-R: Structured Entity-Aware Retrieval with Chain-of-Reasoning Navigator for Multi-hop Question Answering 该论文针对多跳问答（MHQA）中推理路径生成缺乏有效控制、容易偏离正确方向，以及传统检索方法过度依赖相似度分数而非信息实际效用导致检索结果同质化或无用的问题，提出了SEARCH-R框架：通过微调Llama3.1-8B训练端到端推理路径导航器来实现受控的子问题分解，并设计了基于依赖树的检索机制以定量评估文档的信息贡献度，从而在三个多跳问答数据集上验证了有效性。",
+    "codeLinks": [
+      "https://github.com/Applied-Machine-Learning-Lab/ACL2026_SEARCH-R"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Multi-hop QA",
+      "Benchmark",
+      "Dataset"
+    ],
+    "id": 156
+  },
+  {
+    "date": "2026.04",
+    "name": "EDR",
+    "url": "https://arxiv.org/abs/2604.24978v1",
+    "title": "Dont Stop Early",
+    "description": "Dont Stop Early: Scalable Enterprise Deep Research with Controlled Information Flow and Evidence-Aware Termination 这篇论文针对现有 Deep Research 系统在企业场景中因信息覆盖不均、上下文膨胀和过早停止而难以产出决策就绪报告的问题，提出了一个可扩展的企业深度研究（EDR）架构。该架构首先通过大纲生成与反思将研究请求分解为覆盖驱动的信息目标，确保所有分析维度在调查前就被明确枚举；然后利用依赖关系构建有向无环图（DAG）执行计划，使独立步骤可并行运行，同时通过显式依赖链接控制中间结果的共享时机，将每个智能体的上下文局部化，防止无关信息累积；最后为每个研究步骤预设基于证据的终止条件，要求智能体迭代收集并评估证据直至满足充分性标准，从而避免过早停止并稳定各章节的分析深度。实验表明，该系统在企业销售赋能任务和公开 DeepResearch Bench 基准上均优于现有基线，消融研究进一步证实依赖控制的信息流和步骤级充分性条件是提升覆盖率和报告质量的关键。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Process Reward",
+      "Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 157
+  },
+  {
+    "date": "2026.04",
+    "name": "AutoResearchBench",
+    "url": "https://arxiv.org/abs/2604.25256v1",
+    "title": "AutoResearchBench",
+    "description": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery 动机在于现有通用智能体基准无法有效评估 AI 在科研场景中的文献检索能力，因此作者构建了一个专门衡量自主科学文献发现的基准测试；它解决了通用基准缺乏研究深度、文献细粒度利用和开放性问题，提出了包含\"深度研究\"（渐进式多步追踪目标论文）和\"广度研究\"（全面收集满足条件论文集）两种任务的评测框架，实验显示即使最强 LLM 在该基准上准确率也仅约 9%，凸显了自主科研文献发现的巨大挑战。",
+    "codeLinks": [
+      "https://github.com/CherYou/AutoResearchBench"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 158
+  },
+  {
+    "date": "2026.04",
+    "name": "ReaLM-Retrieve",
+    "url": "https://arxiv.org/abs/2604.26649v1",
+    "title": "When to Retrieve During Reasoning",
+    "description": "When to Retrieve During Reasoning: Adaptive Retrieval for Large Reasoning Models 该文针对大型推理模型（如 DeepSeek-R1、OpenAI o1）在生成长达数万 token 的多步推理链时，传统 RAG\"先检索后生成\"的范式无法应对推理中途知识缺口、且现有迭代检索方法存在粒度不匹配、信号不可用和效率崩溃等问题，提出了 ReaLM-Retrieve 框架，通过步骤级不确定性检测（RSUS）、学习式检索干预策略和效率优化集成机制，实现了在推理步骤粒度上的自适应检索，在 MuSiQue 等基准上平均提升 10.1% F1 的同时减少 47% 的检索调用。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Process Reward",
+      "RAG",
+      "Benchmark",
+      "Token-Efficient"
+    ],
+    "id": 159
+  },
+  {
+    "date": "2026.04",
+    "name": "NeocorRAG",
+    "url": "https://arxiv.org/abs/2604.27852v1",
+    "title": "NeocorRAG",
+    "description": "NeocorRAG: Less Irrelevant Information, More Explicit Evidence, and More Effective Recall via Evidence Chains 该研究针对RAG中\"检索召回率提升却无法有效转化为推理准确率改善\"的核心痛点，提出了一种名为NeocorRAG的框架；其动机源于发现现有检索指标（如Recall@n）仅能衡量\"是否命中相关文档\"，却无法评估检索内容对下游推理的真实贡献，导致高召回往往伴随大量干扰噪声和隐性证据缺失，为此作者创新性地提出\"召回转化率（RCR）\"指标来量化检索对推理的实际贡献，并揭示了当前结构增强方法（高召回但噪声大）与推理增强方法（低噪声但召回不足）之间的权衡困境；NeocorRAG通过系统性地挖掘和利用\"证据链\"来优化检索质量，具体采用激活路径搜索算法在文档子图中锁定候选证据空间、利用前缀树约束解码精确生成证据链、并基于证据链过滤干扰文档并显化隐性关联证据",
+    "codeLinks": [
+      "https://github.com/BUPT-Reasoning-Lab/NeocorRAG"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RAG"
+    ],
+    "id": 160
+  },
+  {
+    "date": "2026.05",
+    "name": "Ψ-RAG",
+    "url": "https://arxiv.org/abs/2605.00529v1",
+    "title": "Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation 该工作针对现有树形检索增强生成（Tree-RA",
+    "description": "Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation 该工作针对现有树形检索增强生成（Tree-RAG）方法仅能处理单文档、难以扩展至跨文档多跳问答的局限性，提出了 Ψ-RAG 框架：通过\"合并与折叠\"迭代构建自适应数据分布的层次抽象树索引，并配备一个能动态重组查询、协同树索引与稀疏关键词索引进行多轮交互推理的多粒度检索智能体，从而在保持高效索引的同时，显著提升跨文档多跳检索与生成性能。",
+    "codeLinks": [
+      "https://github.com/Newiz430/Psi-RAG"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "RAG",
+      "Multi-hop QA",
+      "Benchmark"
+    ],
+    "id": 161
+  },
+  {
+    "date": "2026.05",
+    "name": "Verbal-R3",
+    "url": "https://arxiv.org/abs/2605.01399v1",
+    "title": "Verbal-R3",
+    "description": "Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning 现有RAG直接将原始检索文本注入LLM上下文，导致信息整合次优（存在暴露偏差、分布不匹配和噪声干扰）如何有效桥接检索结果与LLM推理能力，使模型能准确利用检索到的证据；引入\"Verbal Annotations\"（ verbal化的查询-文档逻辑关联分析叙事）作为认知桥梁，并基于此构建Verbal-R3框架——包含一个执行迭代检索推理的Generator和一个生成Verbal Annotations及相关性评分的Verbal Reranker，配合相关性引导的测试时缩放策略来高效分配计算资源。",
+    "codeLinks": [
+      "https://github.com/0k9d0h1/VerbalR3"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RAG",
+      "Benchmark"
+    ],
+    "id": 162
+  },
+  {
+    "date": "2026.05",
+    "name": "SciResearcher",
+    "url": "https://arxiv.org/abs/2605.01489v1",
+    "title": "SciResearcher",
+    "description": "SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning SciResearcher 针对现有深度研究智能体在前沿科学领域的数据构建局限，提出了一个全自动框架：通过智能体网络探索构建两类任务——概念任务利用\"锚点实体\"迭代增强生成多跳推理问题，计算任务则经三级证据筛选提取科学模型并辅以多求解器验证；基于所构建的 SciResearcherQA 数据集对 Qwen3-8B 进行监督微调与强化学习后，得到的 SciResearcher-8B 在多个前沿科学推理基准上取得同规模新 SOTA，甚至超越更大参数的专有智能体，为扩展科学发现智能体提供了可扩展的新范式。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "SFT",
+      "Agent",
+      "Search Agent",
+      "Multi-hop QA",
+      "Deep Research",
+      "Benchmark",
+      "Dataset"
+    ],
+    "id": 163
+  },
+  {
+    "date": "2026.05",
+    "name": "OpenSeeker-v2",
+    "url": "https://arxiv.org/abs/2605.04036v1",
+    "title": "OpenSeeker-v2",
+    "description": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories 动机是打破工业巨头对前沿搜索智能体开发的垄断，证明无需耗费大量资源的预训练、持续预训练和强化学习流程，仅用监督微调也能训练出顶尖搜索智能体；它解决了学术界因资源受限难以追赶工业级搜索智能体性能的问题，通过扩大知识图谱规模以丰富探索、扩展工具集以增强功能、并严格过滤低步数轨迹筛选高质量数据这三种简单的数据合成策略，仅用 10.6k 数据点进行 SFT，就在四个基准上超越了使用重资源流程训练的通义 DeepResearch，成为首个由纯学术团队仅靠 SFT 达到 SOTA 的搜索智能体。",
+    "codeLinks": [
+      "https://github.com/rui-ye/OpenSeeker"
+    ],
+    "datasetLinks": [
+      "https://huggingface.co/datasets/OpenSeeker/OpenSeeker-v1-Data"
+    ],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "SFT",
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 164
+  },
+  {
+    "date": "2026.05",
+    "name": "LongSeeker",
+    "url": "https://arxiv.org/abs/2605.05191v1",
+    "title": "LongSeeker",
+    "description": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents 这篇论文的动机是：长程搜索智能体在执行多步推理时，工作上下文会无限制增长，导致噪声累积、成本上升和错误率增加，因此需要一种自适应的上下文管理机制。它解决的问题是：现有方法（如滑动窗口截断、阈值重启、固定粒度摘要）无法根据任务演化状态对历史信息进行精细化、按需的塑形，导致重要证据丢失或冗余信息干扰。提出的方法是 Context-ReAct 范式，通过 Skip、Compress、Rollback、Snippet、Delete 五种原子元操作，让智能体在每一步主动决定何时、何地、如何重塑上下文，从而实现弹性上下文编排；并基于此微调出 LongSeeker 模型，在 BrowseComp 等长程搜索基准上显著超越同类基线。",
+    "codeLinks": [
+      "https://github.com/PolarSeeker/LongSeeker"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 165
+  },
+  {
+    "date": "2026.05",
+    "name": "VOI",
+    "url": "https://arxiv.org/abs/2605.05701v1",
+    "title": "Inference-Time Budget Control for LLM Search Agents 该文针对LLM搜索智能体在推理时面临工具调用与生成token双重硬预算约束的问题，提出了一种无需",
+    "description": "Inference-Time Budget Control for LLM Search Agents 该文针对LLM搜索智能体在推理时面临工具调用与生成token双重硬预算约束的问题，提出了一种无需训练的两阶段推理时预算控制方法：搜索阶段通过任务级信息价值（VOI）评分在检索、问题分解和回答承诺之间动态分配剩余预算，回答阶段则通过基于证据的选择性最终确定器仅对低风险的答案形式错误（如极性、二元选择等）进行保守重写，从而在四个多跳问答基准和多个预算级别下实现了相比基线的一致性能提升。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Multi-hop QA",
+      "Benchmark"
+    ],
+    "id": 166
+  },
+  {
+    "date": "2026.05",
+    "name": "WCR",
+    "url": "https://arxiv.org/abs/2605.05702v1",
+    "title": "Knowledge-Graph Paths as Intermediate Supervision for Self-Evolving Search Agents 该论文针对 Search Self-",
+    "description": "Knowledge-Graph Paths as Intermediate Supervision for Self-Evolving Search Agents 该论文针对 Search Self-Play（SSP）自进化搜索智能体框架的两个瓶颈——Proposer 因缺乏关系上下文而生成大量无效问题、Solver 仅获得稀疏二元奖励导致部分正确轨迹被浪费——提出利用知识图谱路径作为构造派生的中间监督：一方面通过 LLM 引导的子图提取为 Proposer 提供关系上下文以生成更连贯的多跳问题，另一方面基于构造路径的中间实体设计路径点覆盖奖励（WCR），为错误但覆盖部分路径点的 Solver 轨迹赋予分级部分奖励，从而在无需额外人工标注的情况下同时提升问题构造质量和训练样本效率，在 7 个 QA 基准和 9 种模型配置下均优于标准 SSP，尤其在多跳推理任务上效果显著。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Self-Play",
+      "Agent",
+      "Search Agent",
+      "Multi-hop QA",
+      "Benchmark",
+      "Token-Efficient"
+    ],
+    "id": 167
+  },
+  {
+    "date": "2026.05",
+    "name": "LatentRAG",
+    "url": "https://arxiv.org/abs/2605.06285v1",
+    "title": "LatentRAG",
+    "description": "LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG 该论文针对现有智能体RAG（Agentic RAG）方法因需逐令牌自回归生成冗长的思维链和子查询而导致推理延迟极高（约为单步RAG的16–22倍）的问题，提出了LatentRAG框架，通过将推理与检索从离散语言空间转移到连续潜空间，利用单次前向传播生成潜思维和潜子查询令牌，并设计潜空间对齐目标实现检索模型的端到端联合优化，同时引入可选的并行潜解码机制以兼顾透明性，最终在七个基准数据集上实现了与显式Agentic RAG相当的性能（差距<5%），并将推理延迟降低约90%。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "RAG",
+      "Benchmark",
+      "Dataset"
+    ],
+    "id": 168
+  },
+  {
+    "date": "2026.05",
+    "name": "Source Attribution Evaluation",
+    "url": "https://arxiv.org/abs/2605.06635v1",
+    "title": "Cited but Not Verified",
+    "description": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents 该论文的动机是：当前LLM深度研究智能体生成的引用无法被可靠验证，现有评估方法仅关注二元归因或引用匹配，缺乏对链接可访问性、主题相关性和事实准确性的多维度端到端评估框架。它解决的问题是：如何系统性地量化LLM引用质量，并探究增加搜索深度是否会提升引用可靠性。提出的方法是首个基于Markdown AST解析器的三阶段评估流水线——结构提取引用-声明对、检索实际来源内容，并通过LLM-as-a-judge在\"链接有效、内容相关、事实准确\"三个维度进行评分；对14个模型的基准测试揭示，即使最强模型的链接有效性超94%、相关性超80%，事实准确率仅39-77%，且消融实验证明随着工具调用从2次增至150次，事实准确性平均暴跌42%，证实了\"信息过载\"效应——更多检索反而损害事实合成能力。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 169
+  },
+  {
+    "date": "2026.05",
+    "name": "PACEvolve++",
+    "url": "https://arxiv.org/abs/2605.07039v1",
+    "title": "PACEvolve++",
+    "description": "PACEvolve++: Improving Test-time Learning for Evolutionary Search Agents 针对现有进化搜索智能体依赖固定提示策略、无法将搜索经验内化为决策偏好的局限，提出了一个顾问模型强化学习框架：通过将\"搜索决策\"（假设生成与选择）与\"代码实现\"解耦，让可训练的顾问模型专注学习任务特定的搜索动态，同时设计了一种阶段自适应的信用分配机制——早期探索时利用组相对反馈学习广泛偏好，后期精炼时转为评估候选对 best-of-k 前沿的贡献——从而在专家并行负载均衡、序列推荐和蛋白质适应度外推等真实任务上实现了更快的收敛和更稳定的测试时训练。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Agent",
+      "Search Agent"
+    ],
+    "id": 170
+  },
+  {
+    "date": "2026.05",
+    "name": "CGDP",
+    "url": "https://arxiv.org/abs/2605.07042v1",
+    "title": "The Context Gathering Decision Process",
+    "description": "The Context Gathering Decision Process: A POMDP Framework for Agentic Search 该论文指出LLM智能体在复杂环境中因上下文窗口有限，迭代搜索时会出现工作记忆退化为有损表示、重复循环和过早停止等问题；为此，作者将交互式信息搜索形式化为\"上下文收集决策过程（CGDP）\"这一POMDP框架，并提出谓词自适应识别（PBAI）算法将搜索分解为显式模块化操作，进而推导出两个干预措施——用持久化的谓词信念状态替代隐式轨迹历史以在限制上下文的同时保留多跳推理，以及用程序性启发式信号替代LLM自评估来检测搜索停滞以避免冗余循环和过早终止，实验表明前者提升多跳推理最多11.4%，后者节省最多39%的token且不影响性能。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Multi-hop QA"
+    ],
+    "id": 171
+  },
+  {
+    "date": "2026.05",
+    "name": "HyperEyes",
+    "url": "https://arxiv.org/abs/2605.07177v1",
+    "title": "HyperEyes",
+    "description": "HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents 动机在于现有顺序处理的多模态搜索智能体存在冗余交互轮次，且单纯并行调用易退化为暴力过度搜索；它通过统一有依据搜索（UGS）将视觉定位与检索融合为原子动作以实现并发查询，并采用双粒度效率感知强化学习框架——宏观上通过 TRACE 动态收紧轨迹级效率参考以抑制冗余工具调用，微观上通过 OPD 对失败轨迹注入教师模型的密集 token 级修正信号——在六个基准上实现开源可比规模模型中最优的准确率与效率帕累托前沿，其中 30B 模型以 9.9% 的准确率提升和 5.3 倍的工具调用轮次缩减超越最强开源基线。",
+    "codeLinks": [
+      "https://github.com/Guankai-Li/HyperEyes"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Agent",
+      "Search Agent",
+      "Benchmark",
+      "Token-Efficient",
+      "Open-Source"
+    ],
+    "id": 172
+  },
+  {
+    "date": "2026.05",
+    "name": "InterLV-Search-Bench",
+    "url": "https://arxiv.org/abs/2605.07510v1",
+    "title": "InterLV-Search",
+    "description": "InterLV-Search: Benchmarking Interleaved Multimodal Agentic Search 该论文的动机在于现有基准测试将视觉证据仅视为答案终点而非搜索轨迹中的动态控制信号，忽略了视觉证据在决定下一步检索目标中的关键作用；它解决了现有基准无法评估\"交错式多模态搜索\"（即视觉和文本证据在搜索过程中反复相互引导、动态切换）能力的问题；提出的方法是构建三层级基准测试 InterLV-Search（主动视觉证据寻求、受控离线交错搜索、开放网页交错搜索），包含 2,061 个样本并涵盖多分支搜索场景，同时配套提供标准化评估框架 InterLV-Agent 用于统一工具调用、轨迹记录和模型对比，实验表明当前多模态智能体在该任务上准确率仍低于 50%，凸显了视觉证据定位、搜索控制和多模态证据整合等核心挑战。",
+    "codeLinks": [
+      "https://github.com/hbhalpha/InterLV-Search-Bench"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Benchmark"
+    ],
+    "id": 173
+  },
+  {
+    "date": "2026.05",
+    "name": "PiCA",
+    "url": "https://arxiv.org/abs/2605.09287v1",
+    "title": "PiCA",
+    "description": "PiCA: Pivot-Based Credit Assignment for Search Agentic Reinforcement Learning 现有基于大语言模型的搜索智能体在强化学习训练中面临长程信用分配的三大挑战：奖励稀疏导致步骤级动作质量难以区分、信用孤立导致步骤间序列依赖被忽略、以及分布偏移导致奖励估计偏离模型自然生成分布。为此，论文提出PiCA（Pivot-Based Credit Assignment），一种基于支点的步骤奖励机制，它基于Potential-Based Reward Shaping将搜索轨迹重构为累积搜索进度的序列过程，通过从历史轨迹中识别能显著提升正确答案概率的\"支点步骤\"（黄金子查询与子答案）作为信息峰值，将过程奖励定义为依赖历史上下文的成功概率，从而提供密集、支点感知且轨迹依赖的指导，同时保持分布一致性。实验表明，PiCA在7个知识密集型QA基准上显著优于强基线，3B和7B模型分别提升15.2%和2.2%。",
+    "codeLinks": [
+      "https://github.com/novdream/PiCA"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Process Reward",
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 174
+  },
+  {
+    "date": "2026.05",
+    "name": "RubricEM",
+    "url": "https://arxiv.org/abs/2605.10899v1",
+    "title": "RubricEM",
+    "description": "RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards 动机在于训练深度研究智能体时，传统强化学习依赖可验证奖励的范式已无法适用——这类智能体的输出缺乏标准答案、决策轨迹漫长且涉及多步工具调用，而现有后训练机制也无法将历史经验转化为可复用知识；为此，论文提出将评分标准（rubric）作为策略执行、评判反馈和智能体记忆的共享接口，构建了 RubricEM 框架，该框架通过阶段化策略分解让研究轨迹具备规划、证据收集、审阅和综合的阶段意识，利用 Stage-Structured GRPO 基于阶段性评分标准提供更密集的语义反馈以解决长时程信用分配问题，并训练共享骨干的反思元策略将已评判轨迹蒸馏为可复用的评分标准指导，最终在四个长格式研究基准上，RubricEM-8B 超越了同类开源模型并接近专有深度研究系统的性能。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark",
+      "Open-Source"
+    ],
+    "id": 175
+  },
+  {
+    "date": "2026.05",
+    "name": "CuSearch",
+    "url": "https://arxiv.org/abs/2605.11611v1",
+    "title": "CuSearch",
+    "description": "CuSearch: Curriculum Rollout Sampling via Search Depth for Agentic RAG 该工作指出现有 RLVR 方法在训练 agentic RAG 时采用均匀采样 rollout，忽视了搜索深度更深的轨迹包含更多检索决策点、监督信号更密集的事实，且随着训练进行批次内深度分布上移，均匀采样无法自适应利用这一变化；为此提出 CuSearch 框架，通过 SDGA 算子将固定更新预算重新分配给更深搜索的轨迹（SDGA-Auto 隐式跟随深度分布上移，SDGA-Phase 显式推进课程阈值），在多个模型和检索框架上持续提效，ZeroSearch 上较标准 GRPO 最高提升 11.8 个精确匹配点，并验证了搜索深度可作为无需标注的检索监督密度代理指标。",
+    "codeLinks": [
+      "https://github.com/MrToser/CuSearch"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Agent",
+      "RAG"
+    ],
+    "id": 176
+  },
+  {
+    "date": "2026.05",
+    "name": "AgentDisCo",
+    "url": "https://arxiv.org/abs/2605.11732",
+    "title": "AgentDisCo",
+    "description": "AgentDisCo: Towards Disentanglement and Collaboration in Open-ended Deep Research Agents 动机在于现有深度研究智能体将信息探索与利用混为一谈，缺乏解耦和协作机制；它通过引入对抗优化的 Critic 与 Generator 双智能体架构，让评判智能体评估大纲并优化查询、生成智能体检索结果并修订大纲，同时利用元优化框架自动生成质量信号并构建可复用策略库实现自我优化，还提出基于用户浏览历史的 GALA 基准和海报渲染智能体，在多个基准上达到或超越领先闭源系统性能。",
+    "codeLinks": [
+      "https://github.com/AgentDisCo-Project"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 177
+  },
+  {
+    "date": "2026.05",
+    "name": "EcoGEO",
+    "url": "https://arxiv.org/abs/2605.12887v1",
+    "title": "EcoGEO",
+    "description": "EcoGEO: Trajectory-Aware Evidence Ecosystems for Web-Enabled LLM Search Agents 动机在于现有 GEO 研究仅聚焦单网页优化，忽略了智能体搜索是多步轨迹过程，影响力取决于页面在浏览路径中的组织与连接方式；它解决了页面级 GEO 无法引导智能体在多步证据采集中持续强化目标产品的问题，提出了 TRACE 方法——通过构建协调的入口页与支持页生态系统，利用共享术语、内部链接和一致属性来塑造智能体的查询、爬取与综合过程，从而在轨迹层面提升目标推荐成功率。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent"
+    ],
+    "id": 178
+  },
+  {
+    "date": "2026.05",
+    "name": "PyRAG",
+    "url": "https://arxiv.org/pdf/2605.12975v1",
+    "title": "Retrieval is Cheap, Show Me the Code",
+    "description": "Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation 动机源于现有 RAG 系统在多跳问答中的脆弱性——自由形式的自然语言推理导致中间状态隐含、检索查询漂移、自反思不可靠；为此，作者提出将多跳 RAG 重新定义为可执行 Python 程序的程序合成与执行，使推理过程变量化、中间状态透明化、反馈确定性化，并支持编译器驱动的自修复与执行驱动的自适应检索，在五个 QA 基准上持续超越强基线。",
+    "codeLinks": [
+      "https://github.com/GasolSun36/PyRAG"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RAG",
+      "Multi-hop QA",
+      "Benchmark"
+    ],
+    "id": 179
+  },
+  {
+    "date": "2026.05",
+    "name": "ViDR",
+    "url": "https://arxiv.org/abs/2605.13034v1",
+    "title": "ViDR",
+    "description": "ViDR: Grounding Multimodal Deep Research Reports in Source Visual Evidence 这篇论文提出了ViDR框架，旨在解决当前深度研究系统过度依赖文本证据、而原始视觉证据（如图表）未被充分利用的问题。ViDR通过将来源图表构建为可检索、可解释、可路由且可验证的证据对象，并辅以上下文感知过滤、大纲感知重排序和VLM视觉分析来精炼网络图片，同时引入MMR Bench+基准测试，显著提升了多模态深度研究报告的证据基础、视觉支撑力和可验证性。",
+    "codeLinks": [
+      "https://github.com/PKU-JX-LAB/PKU_MMDR"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 180
+  },
+  {
+    "date": "2026.05",
+    "name": "R<sup>2</sup>-Mem",
+    "url": "https://arxiv.org/abs/2605.13486v1",
+    "title": "R<sup>2</sup>-Mem",
+    "description": "R<sup>2</sup>-Mem: Reflective Experience for Memory Search 现有深度搜索智能体虽能让记忆系统无需预管理大量信息即可检索细粒度历史内容，但由于无法从历史搜索轨迹中学习，导致反复重复过去的错误行为；为此，作者提出 R<sup>2</sup>-Mem（Reflective Experience for Memory Search），一个面向记忆搜索的反思经验框架，其核心是在离线阶段通过评分器（Rubric-guided Evaluator）对历史轨迹中的高低质量步骤进行打分，再由自反思学习器（Self-Reflection Learner）将这些经验蒸馏为抽象规则，在线推理时检索并复用这些经验来指导后续搜索动作，从而避免重复错误并保持高质量行为——实验表明该框架在无需强化学习且成本极低的情况下，可将 F1 提升最高 22.6%，同时减少 12.9% 的 token 消耗和 20.2% 的搜索迭代次数。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Memory",
+      "Agent",
+      "Search Agent",
+      "Benchmark"
+    ],
+    "id": 181
+  },
+  {
+    "date": "2026.05",
+    "name": "MultiSearch",
+    "url": "https://arxiv.org/abs/2605.13534v1",
+    "title": "Scaling Retrieval-Augmented Reasoning with Parallel Search and Explicit Merging 针对现有深度搜索智能体在每一步推理中仅生",
+    "description": "Scaling Retrieval-Augmented Reasoning with Parallel Search and Explicit Merging 针对现有深度搜索智能体在每一步推理中仅生成单查询检索导致信息覆盖不足、噪声过高、信噪比低及推理冗余的问题，提出了一个基于强化学习的框架，通过多视角并行检索扩大信息覆盖并减少对单一结果的依赖，再通过显式合并与精炼检索内容提升信噪比，同时采用多进程奖励设计的 RL 训练策略优化检索与整合能力，在 7 个基准数据集上验证了其优于基线方法的推理性能。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Agent",
+      "RAG",
+      "Search Agent",
+      "Benchmark",
+      "Dataset"
+    ],
+    "id": 182
+  },
+  {
+    "date": "2026.05",
+    "name": "Argus",
+    "url": "https://arxiv.org/abs/2605.16217v1",
+    "title": "Argus",
+    "description": "Argus: Evidence Assembly for Scalable Deep Research Agents 动机在于解决现有深度研究智能体并行搜索时重复收集证据、导致边际收益递减和上下文膨胀的问题；它提出了一种由 Searcher 负责通过 ReAct 式交互收集子查询证据、由 Navigator 维护共享证据图并调度搜索与综合推理的双智能体协作框架，将深度研究从并行暴力求解转变为互补证据的拼图式组装，从而在多个基准上显著提升性能并保持可控的上下文开销。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 183
+  },
+  {
+    "date": "2026.05",
+    "name": "GRASP",
+    "url": "https://arxiv.org/abs/2605.16598v1",
+    "title": "GRASP",
+    "description": "GRASP: Graph Agentic Search over Propositions for Multihop Question Answering 旨在解决现有知识图谱增强的智能体检索系统在多跳问答中面临的高昂索引构建成本与推理阶段 token 消耗累积的问题，提出了一种通过将多跳查询动态分解为依赖感知的子计划、并根据问题复杂度弹性调度子智能体数量的方法；每个子智能体在由实体、命题和段落构成的三层层次化图上进行搜索，利用实体层实现精准遍历、通过命题层的互反排名投票完成高召回段落检索，从而在 MuSiQue、2WikiMultihopQA 和 HotpotQA 的开放检索与 LongBench 扩展上下文推理场景中，以比现有最优方法减少 30-50% token 的代价取得了最高的问答准确率，并引入了\"success economy\"（按难度加权的每正确答案摊销 token 成本）这一效率感知评估指标。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Multi-hop QA",
+      "Token-Efficient"
+    ],
+    "id": 184
+  },
+  {
+    "date": "2026.05",
+    "name": "SD-Search",
+    "url": "https://arxiv.org/abs/2605.18299v1",
+    "title": "SD-Search",
+    "description": "SD-Search: On-Policy Hindsight Self-Distillation for Search-Augmented Reasoning 动机在于解决搜索增强推理智能体在标准 GRPO 强化学习框架下面临的核心困境：整个轨迹只共享一个基于最终答案正确性的结果奖励，导致模型无法判断轨迹中每个搜索查询的优劣，从而难以学习高质量的检索策略。为此，论文提出了同策略事后自蒸馏方法，让同一模型分别扮演\"学生\"和\"教师\"两种角色——学生只能看到推理时的标准上下文，而教师额外获得一个事后信息块（包含同问题下多个 rollouts 的搜索查询及成败标签）；通过最小化学生在搜索查询 token 上的分布与教师分布之间的 Jensen-Shannon 散度，将事后才能获得的步骤级监督信号蒸馏给学生，使其学会哪些查询值得发出、哪些应避免。该方法完全在标准 RL 训练循环内实现，无需外部大模型教师或额外标注，在七个单跳和多跳问答基准上均显著超越纯结果奖励基线，并与依赖 72B 教师模型的领先流程监督方法持平或更优。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Process Reward",
+      "Agent",
+      "Multi-hop QA",
+      "Benchmark"
+    ],
+    "id": 185
+  },
+  {
+    "date": "2026.05",
+    "name": "DeepWeb-Bench",
+    "url": "https://arxiv.org/abs/2605.21482v1",
+    "title": "DeepWeb-Bench",
+    "description": "DeepWeb-Bench: A Deep Research Benchmark Demanding Massive Cross-Source Evidence and Long-Horizon Derivation 这篇论文的动机是当前深度研究基准对前沿模型过于简单、缺乏区分度；它解决的问题是如何构建一个能真正考验大规模证据收集、跨来源调和与长程多步推导的综合基准；提出的方法是DEEPWEB-BENCH，通过8×8矩阵式任务结构覆盖检索、推导、推理和校准四类能力，并配备四级来源追溯与细粒度评分规则，实验发现检索并非瓶颈而推导与校准才是主要难点，且强弱模型的失败模式存在质性差异。",
+    "codeLinks": [
+      "https://github.com/sixiongxie1001-dot/deep-research-benchmark2.0"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 186
+  },
+  {
+    "date": "2026.05",
+    "name": "SGR-Bench",
+    "url": "https://arxiv.org/abs/2605.22219v1",
+    "title": "SGR-Bench",
+    "description": "SGR-Bench: Benchmarking Search Agents on State-Gated Retrieval 该文提出状态门控检索（State-Gated Retrieval, SGR）这一被现有基准忽视的核心能力——在专业数据检索网站上，答案证据往往隐藏在筛选器、视图层级等站点特定状态之后，找到正确网站只是第一步，更关键的是配置正确的检索状态才能使证据可见。为此构建 SGR-BENCH 基准（100 个任务、12 个数据生态系统），通过系统化整理与配对任务设计评测 11 个系统，发现最强模型 Item-F1 仅 66.18%，主要失败原因并非找不到网站或组装答案，而是检索状态维持失败——\"范围漂移\"和\"标准不匹配\"占失败原因的 64.7%。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Benchmark"
+    ],
+    "id": 187
+  },
+  {
+    "date": "2026.05",
+    "name": "Search-E1",
+    "url": "https://arxiv.org/abs/2605.22511",
+    "title": "Search-E1",
+    "description": "Search-E1: Self-Distillation Drives Self-Evolution in Search-Augmented Reasoning 这篇论文的动机是质疑搜索增强推理领域日益复杂的后训练方法——这些方法不断引入外部强监督系统、辅助模块、树状搜索或手工奖励函数，导致训练流程臃肿且依赖额外资源；作者想验证这些复杂机制是否真的必要。它解决的问题是如何在不借助任何外部教师、过程奖励模型或额外标注的前提下，为搜索增强智能体提供密集的逐 token 监督信号，从而克服标准 GRPO 仅依赖最终答案正确性、导致整个轨迹内所有 token 共享同一稀疏梯度、无法区分搜索步骤质量的缺陷。提出的方法是 Search-E1，一种自进化训练流程：交替执行标准 GRPO（在轨迹层面探索）与离线自蒸馏 OFSD（在 token 层面巩固）——每次 GRPO 收敛后，从策略自身的 rollout 中挖掘同一问题的\"高效正确轨迹\"作为参考、\"低效/错误轨迹\"作为学生输入，通过非对称提示让同一模型分别扮演学生（仅见问题）和教师（额外见参考轨迹），并以带逐点裁剪的 token 级前向 KL 散度对齐两者分布，从而将优质轨迹中的逐步搜索模式蒸馏到策略的推理时分布中，实现纯粹依靠自身 rollout 的闭环自我进化。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Self-Play",
+      "Process Reward",
+      "Agent"
+    ],
+    "id": 188
+  },
+  {
+    "date": "2026.05",
+    "name": "LLM-Wiki",
+    "url": "https://arxiv.org/abs/2605.25480v2",
+    "title": "Retrieval as Reasoning",
+    "description": "Retrieval as Reasoning: Self-Evolving Agent-Native Retrieval via LLM-Wiki 该论文提出LLM-Wiki，动机在于当前 RAG 系统将知识扁平化为文本块，导致检索沦为一次性相似度匹配，无法满足智能体迭代推理的需求；它解决了传统检索缺乏结构化导航、无法动态调整检索计划、以及知识库缺乏自我纠错能力的问题，通过将文档编译为带双向链接的 Wiki 页面、暴露搜索/阅读/链接追踪等组合式工具接口、并引入 Error Book 实现持续的结构与语义自纠错，从而将\"检索\"转变为智能体可规划、可遍历、可验证的推理过程，在多跳 QA 基准上取得 SOTA 且优势随推理深度递增。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Self-Play",
+      "Agent",
+      "RAG",
+      "Multi-hop QA",
+      "Benchmark"
+    ],
+    "id": 189
+  },
+  {
+    "date": "2026.05",
+    "name": "RAG-Match",
+    "url": "https://arxiv.org/abs/2605.25486v1",
+    "title": "RAG-Match",
+    "description": "RAG-Match: Retrieval-Augmented Knowledge Injection and Hierarchical Reasoning for Calibrated Semantic Relevance 动机在于解决知识密集型搜索中语义相关性判断的困难——现有模型仅靠标签监督或浅层语义匹配，无法处理需要背景知识、隐式意图推理和细粒度区分的复杂查询；为此，该工作提出了一个三阶段框架：首先通过检索增强预训练让模型学习从查询生成知识合成的文档，将外部知识内化为参数化的语义先验；然后引入层次化推理对齐，将相关性判断分解为\"查询 grounding\"和\"多维度文档评估\"两阶段，以结构化思维链替代直接分类；最后通过差异引导偏好优化，利用少量人工标注对困难边界案例进行决策校准，减少模型的高估偏差。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RAG",
+      "Benchmark"
+    ],
+    "id": 190
+  },
+  {
+    "date": "2026.05",
+    "name": "VeriTrace",
+    "url": "https://arxiv.org/abs/2605.26081v1",
+    "title": "VeriTrace",
+    "description": "VeriTrace: Evolving Mental Models for Deep Research Agents 该论文的动机在于：深度研究智能体面对海量、相互关联且充满不确定性的信息时，现有系统将中间表征的演化完全交给大模型的隐性推理，导致中间层易被混合质量的信息污染，错误沿依赖关系传播，最终使得模型规模沦为对缺失调控机制的替代；为此，论文提出了VeriTrace框架，通过基于认知图的三个显式反馈回路——解释性更新（对新发现进行分类而非被动吸收）、偏差反馈（将搜索结果与预期对比并选择针对性搜索策略）、模式修正（当框架与现实脱节时重组认知结构同时保留证据）——来持续对齐智能体的心智模型与现实，在相同骨干模型下显著提升了深度研究的洞察力和整体表现。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Deep Research"
+    ],
+    "id": 191
+  },
+  {
+    "date": "2026.05",
+    "name": "LOGICALRAG",
+    "url": "https://arxiv.org/abs/2605.27123v1",
+    "title": "Rethinking Agentic RAG",
+    "description": "Rethinking Agentic RAG: Toward LLM-Driven Logical Retrieval Beyond Embeddings 该文认为当前 Agentic RAG 过度追求复杂的检索后端（密集/混合/图检索），却忽视了 LLM 本身已具备精确表达检索意图的能力，且复杂后端导致多轮查询结果冗余重叠、LLM 难以修复失败检索，同时建设和维护成本高昂；为此提出 LOGICALRAG 框架，将检索后端简化为轻量级倒排索引，让 LLM 通过布尔逻辑表达式（AND/OR/NOT）和可调节匹配粒度直接驱动检索过程，使查询意图被忠实执行，实验表明该方法在准确率上与强混合基线持平的同时，大幅降低了系统成本与延迟，并有效减少了证据缺失时的幻觉问题。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "RAG",
+      "Benchmark"
+    ],
+    "id": 192
+  },
+  {
+    "date": "2026.05",
+    "name": "PL-Search",
+    "url": "https://arxiv.org/abs/2605.28354v1",
+    "title": "Plan Before Search",
+    "description": "Plan Before Search: Search Agents Need Plan 现有将大语言模型训练为检索增强推理智能体的范式通常依赖从更强模型蒸馏获取SFT冷启动再辅以强化学习，但这一做法忽略了子技能间的依赖结构以及蒸馏并非获取能力的唯一途径；为此，作者提出Plan——一种在检索前就将问题分解为有序子问题的结构化智能体行为，使每一步搜索都能锚定到预设计的子问题上以避免被早期部分相关文档带偏，同时发现相同奖励信号在不同规模模型上会诱导出性质迥异的RL失败模式，进而提出一种自举范式：用小规模种子模型生成筛选后的轨迹来激活任意目标模型中的Plan能力，从而彻底摆脱对外部更强模型的蒸馏依赖，该流程在所有测试模型上均能成功激活Plan并在多跳QA基准上持续超越有竞争力的基线。",
+    "codeLinks": [
+      "https://github.com/qzp2018/PL-Search"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "SFT",
+      "Agent",
+      "RAG",
+      "Search Agent",
+      "Multi-hop QA",
+      "Benchmark"
+    ],
+    "id": 193
+  },
+  {
+    "date": "2026.05",
+    "name": "LiveBrowseComp",
+    "url": "https://arxiv.org/abs/2605.28721v1",
+    "title": "LiveBrowseComp",
+    "description": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know? 该文动机在于质疑当前搜索智能体在静态基准上的高分是否源于真正的证据发现能力，还是仅利用内在知识进行验证；它揭示了\"内在知识依赖（IKD）\"问题——即智能体过度依赖参数化知识、将搜索当作确认工具而非发现机制，导致固定基准随模型知识扩展而失效；为此提出了 LiveBrowseComp 基准，通过选取90天内发布的冷门事实构建问题，迫使智能体必须依赖实时检索而非记忆猜测，从而有效区分\"已知\"与\"能发现\"的搜索能力。",
+    "codeLinks": [],
+    "datasetLinks": [
+      "https://huggingface.co/datasets/Forival/LiveBrowseComp"
+    ],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Benchmark"
+    ],
+    "id": 194
+  },
+  {
+    "date": "2026.05",
+    "name": "LongTraceRL",
+    "url": "https://arxiv.org/abs/2605.31584v1",
+    "title": "LongTraceRL",
+    "description": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards 动机在于提升大语言模型在长上下文中的推理能力，解决现有方法面临的两大核心问题：训练数据中干扰项混淆度低、与现实场景脱节，以及结果奖励过于稀疏导致无法监督中间推理步骤甚至引发奖励作弊。为此，该方法提出了基于搜索代理轨迹的分层干扰项构建策略——利用代理阅读但未引用的文档作为高混淆度干扰项、搜索结果中未打开的文档作为低混淆度干扰项，显著提升了训练数据的挑战性；同时设计了基于黄金实体的评分标准奖励，仅对最终答案正确的响应进行细粒度实体级过程监督，从而有效区分正确响应的推理质量并防止奖励作弊。",
+    "codeLinks": [
+      "https://github.com/THU-KEG/LongTraceRL"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Process Reward",
+      "Agent",
+      "Search Agent"
+    ],
+    "id": 195
+  },
+  {
+    "date": "2026.06",
+    "name": "observation-masking",
+    "url": "https://arxiv.org/abs/2606.00408v1",
+    "title": "Masking Stale Observations Helps Search Agents -- Until It Doesn't",
+    "description": "Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism 这篇论文研究了长程搜索智能体中\"掩码过时观测\"这一轻量上下文管理手段的有效性边界，通过系统扫描4B至284B参数的模型与多种检索器，发现其收益呈非对称倒U型分布：在弱检索器下因证据不足而收益平缓，在中等能力模型配强检索器时因剥离噪声、腾出轮次空间而达到峰值（+11.7pts），但在强模型饱和时反而会驱逐关键信号导致性能崩溃（−1.1pts）；机制上，掩码实现了\"token换轮次\"的权衡，移除了模型注意力已衰减的中间噪声，但当模型具备隐式过滤能力后，提升检索器质量而非启发式剪枝才是突破上下文瓶颈的根本方向。",
+    "codeLinks": [
+      "https://github.com/i-DeepSearch/observation-masking"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Search Agent",
+      "Deep Research"
+    ],
+    "id": 196
+  },
+  {
+    "date": "2026.06",
+    "name": "Critic-R",
+    "url": "https://arxiv.org/abs/2606.00590v1",
+    "title": "Critic-R",
+    "description": "Critic-R: Improving Agentic Search using Instruction-tuned Retrievers with Natural Language Introspective Feedback 现有 Agentic Search 系统将检索器视为固定黑盒，导致检索失败成为性能瓶颈，且优化检索器通常需要昂贵的人工标注；Critic-R 通过引入一个独立 Critic 模型分析推理智能体的内省反馈，在推理时迭代评估并重写检索查询以修复失败（Critic-R-Zero），同时将成功与失败的检索轨迹作为自动监督信号微调检索器（Critic-Embed），两者结合后在无需人工标注和修改推理智能体的情况下显著提升了多跳问答的检索质量与答案准确率。",
+    "codeLinks": [],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Agent",
+      "Multi-hop QA"
+    ],
+    "id": 197
+  },
+  {
+    "date": "2026.06",
+    "name": "DR-Rubric",
+    "url": "https://arxiv.org/abs/2606.01091v1",
+    "title": "Deep Research as Rubric for Reinforcement Learning 这篇论文提出 **DR-Rubric** 框架，将评分标准构建重新定义为\"深度研究\"问题：通过迭代",
+    "description": "Deep Research as Rubric for Reinforcement Learning 这篇论文提出 **DR-Rubric** 框架，将评分标准构建重新定义为\"深度研究\"问题：通过迭代多轮 agentic 搜索主动收集任务特定的事实证据、结构约束和失败模式，再将其蒸馏为原子化、可独立验证的约束条件，为 GRPO 强化学习提供细粒度奖励信号；同时展示了模型自举生成评分标准的能力，初始自举驱动推理能力专业化，后续迭代逐步修复任务平衡性，最终仅用 1K–3K 训练样本就在 6 个智能体与专家推理基准上超越所有同规模基线。",
+    "codeLinks": [
+      "https://github.com/meiotoufa/DR-Rubric"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 198
+  },
+  {
+    "date": "2026.06",
+    "name": "DRIFT",
+    "url": "https://arxiv.org/abs/2606.02060v1",
+    "title": "Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories 该研究针对深度研",
+    "description": "Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories 该研究针对深度研究智能体（deep-research agents）的评估仅关注最终答案、无法诊断轨迹中何处出错的问题，提出了**DRIFT**——一个以\"声明（claim）\"为中心的多智能体审计框架，通过构建声明账本追踪智能体在轨迹中形成的各类承诺、检验其是否被证据支持或存在矛盾、并回溯依赖关系来定位最早产生危害的错误片段；为此作者还构建了包含1,000个专家验证实例的**TELBench**基准，实验表明DRIFT在片段级错误定位和首次错误准确率上比直接全上下文提示提升最多30个百分点，为智能体可靠性提供了过程级的诊断视角。",
+    "codeLinks": [
+      "https://github.com/NJU-LINK/DRIFT"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Multi-Agent",
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 199
+  },
+  {
+    "date": "2026.06",
+    "name": "TVIR",
+    "url": "https://arxiv.org/pdf/2606.02320v1",
+    "title": "TVIR",
+    "description": "TVIR: Building Deep Research Agents Towards Text–Visual Interleaved Report Generation 现有深度研究智能体虽擅长多步检索与长文本报告生成，但现有基准和系统仍以文本为中心，忽视了真实世界专业报告中视觉证据作为核心推理组件的关键作用，导致视觉元素常被当作装饰性补充而非与文本语义对齐的证据；为此，该工作提出了TVIR框架，包含100个专家策划的多模态任务基准TVIR-BENCH、一个将视觉资产（检索图像与代码生成图表）深度融入规划与写作流程的层次化多智能体系统TVIR-AGENT，以及一套同时审计文本质量与视觉证据可靠性的双路径评估体系，从而推动深度研究从纯文本任务向多模态证据驱动报告生成演进。",
+    "codeLinks": [
+      "https://github.com/NJU-LINK/TVIR"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "Multi-Agent",
+      "Agent",
+      "Search Agent",
+      "Deep Research",
+      "Benchmark"
+    ],
+    "id": 200
+  },
+  {
+    "date": "2026.06",
+    "name": "Harness-1",
+    "url": "https://arxiv.org/pdf/2606.02373v1",
+    "title": "Harness-1",
+    "description": "Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses 动机在于传统搜索智能体将状态管理（如记忆已见文档、追踪未满足约束、记录验证状态）与语义搜索决策混为一谈，导致强化学习优化困难；它通过引入\"状态外部化\"原则，将候选池、精选集、证据图、验证记录等可恢复性簿记工作卸载到环境端维护，让 20B 规模的策略专注于搜索、筛选、验证和终止等语义决策，并配合自动播种、紧凑状态渲染和多样性激励等训练机制，在 8 个跨领域检索基准上实现了比开源对手高 11.4 分的平均召回率，且在未见过的迁移任务上提升更为显著。",
+    "codeLinks": [
+      "https://github.com/pat-jj/harness-1"
+    ],
+    "datasetLinks": [],
+    "year": 2026,
+    "tags": [
+      "RL-based",
+      "Agent",
+      "Search Agent",
+      "Benchmark",
+      "Open-Source"
+    ],
+    "id": 201
   }
 ];
